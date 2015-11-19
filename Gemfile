@@ -11,9 +11,13 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'materialize-sass'
-gem 'devise', '~> 3.5', '>= 3.5.2'
+gem 'devise'
 gem 'toastr-rails'
-gem 'mandrill-api', '1.0.52', require: 'mandrill'
+gem 'mandrill-api', require: 'mandrill'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem 'certified-net-http-requests'
+
 group :development, :test do
 	gem 'byebug'
 	gem 'web-console', '~> 2.0'	
