@@ -13,6 +13,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'materialize-sass'
 gem 'devise', '~> 3.5', '>= 3.5.2'
 gem 'toastr-rails'
+gem 'mandrill-api', '1.0.52', require: 'mandrill'
 group :development, :test do
 	gem 'byebug'
 	gem 'web-console', '~> 2.0'	
